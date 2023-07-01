@@ -80,7 +80,9 @@ body {
     line-height: 1.5;
     color: #ffffff;
     text-align: center;
-    background-color: transparent
+    background-color: transparent;
+    height: 100vh; 
+    margin-top: 250px;
 }
 
 [tabindex="-1"]:focus {
@@ -7675,8 +7677,6 @@ button.bg-dark:hover {
 
 .align-items-center {
     -ms-flex-align: center !important;
-    height: 100vh; 
-    margin-top: 250px;
 
 }
 
