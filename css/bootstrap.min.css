@@ -436,14 +436,29 @@ h6 {
     font-size: 1rem
 }
 
+
 .h7,
 h7 {
     font-size: 4.4rem
 }
 
+@media (max-width: 613px){
+    .h7,
+    h7 {
+        font-size: 3rem
+    }
+}
+
 .lead {
     font-size: 1.25rem;
     font-weight: 300
+}
+
+@media (max-width: 613px){
+    .lead {
+        font-size: 1rem;
+        font-weight: 300
+    }
 }
 
 .display-1 {
@@ -3372,6 +3387,16 @@ fieldset:disabled a.btn {
     border-radius: .3rem
 }
 
+@media (max-width: 613px){
+    .btn-group-lg>.btn,
+    .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .3rem
+    }
+}
+
 .btn-group-sm>.btn,
 .btn-sm {
     padding: .25rem .5rem;
@@ -4644,17 +4669,17 @@ input[type=submit].btn-block {
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
-    position: fixed;
-    right: 70px
 }
 
+
 .navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
+    /*padding: .25rem .75rem;*/
+    /*font-size: 1.25rem;*/
     line-height: 1;
-    background-color: transparent;
+    background-color:#ffffff;
     border: 1px solid transparent;
-    border-radius: .25rem
+    border-radius: .25rem;
+    margin-top: -40px;
 }
 
 .navbar-toggler:focus,
@@ -4779,7 +4804,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1400px) {
     .navbar-expand-lg {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -4789,7 +4814,9 @@ input[type=submit].btn-block {
 
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
-        flex-direction: row
+        flex-direction: row;
+        position: fixed;
+        right: 70px
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -4798,7 +4825,8 @@ input[type=submit].btn-block {
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .5rem;
-        padding-left: .5rem
+        padding-left: .5rem;
+
     }
 
     .navbar-expand-lg>.container,
@@ -7312,7 +7340,7 @@ button.bg-dark:hover {
 }
 
 .d-block {
-    display: block !important
+    /*display: block !important*/
 }
 
 .d-table {

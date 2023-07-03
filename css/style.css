@@ -328,6 +328,19 @@ body{/*margin-top:20px;*/}
     padding: 35px 0;
     position: relative;
 }
+
+@media (max-width: 613px){
+  .event-schedule-area-two ul.custom-tab li a {
+    color: #252525;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 0;
+    position: relative;
+}
+}
+
 .event-schedule-area-two ul.custom-tab li a:hover:before {
     width: 100%;
 }
