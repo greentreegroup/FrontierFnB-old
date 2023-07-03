@@ -543,7 +543,7 @@ mark {
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 50%;
     height: auto
 }
 
@@ -561,6 +561,9 @@ mark {
 }
 
 .figure-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: .5rem;
     line-height: 1
 }
