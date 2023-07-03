@@ -445,7 +445,7 @@ h7 {
 @media (max-width: 613px){
     .h7,
     h7 {
-        font-size: 3rem
+        font-size: 2.5rem
     }
 }
 
@@ -456,7 +456,7 @@ h7 {
 
 @media (max-width: 613px){
     .lead {
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-weight: 300
     }
 }
@@ -617,6 +617,11 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+}
+@media (max-width:613px){
+    .container-new {
+        margin-top: -20px;
+    }
 }
 
 @media (max-width:576px) {
