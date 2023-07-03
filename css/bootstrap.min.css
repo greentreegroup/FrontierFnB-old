@@ -606,9 +606,11 @@ pre code {
 
 @media (min-width:300px) {
     .container {
-        max-width: 281px;
+        max-width: 281px
     }
-    
+    main{
+        flex-wrap:wrap
+    }
 }
 
 @media (min-width:576px) {
