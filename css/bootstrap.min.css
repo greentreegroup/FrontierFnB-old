@@ -604,10 +604,9 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:400px) {
+@media (min-width:300px) {
     .container {
-        max-width: 375px;
-        font-size: .93rem;
+        max-width: 281px;
     }
     
 }
