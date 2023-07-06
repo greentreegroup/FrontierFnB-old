@@ -387,7 +387,7 @@ body{/*margin-top:20px;*/}
     margin-bottom: 0;
 }
 .event-schedule-area-two .tab-content .table thead {
-    background-color: #a9a9a9;
+    background-color: #222;
     color: #fff;
     font-size: 20px;
 }
@@ -408,7 +408,7 @@ body{/*margin-top:20px;*/}
 }
 .event-schedule-area-two .tab-content .table tbody tr th .event-date {
     color: #252525;
-    text-align: center;
+    /*text-align: center;*/
 }
 .event-schedule-area-two .tab-content .table tbody tr th .event-date span {
     font-size: 50px;
