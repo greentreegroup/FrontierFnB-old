@@ -4585,7 +4585,8 @@ input[type=submit].btn-block {
 }
 
 .nav-tabs .nav-item {
-    margin-bottom: -1px
+    margin-bottom: -1px;
+    margin-right: -25px;
 }
 
 .nav-tabs .nav-link {
@@ -4741,7 +4742,7 @@ input[type=submit].btn-block {
     /*padding: .25rem .75rem;*/
     /*font-size: 1.25rem;*/
     line-height: 1;
-    background-color:#ffffff;
+    background-color:#000000;
     border: 1px solid transparent;
     border-radius: .25rem;
     margin-top: -40px;
@@ -9193,7 +9194,7 @@ button.bg-dark:hover {
 
 .mr-auto,
 .mx-auto {
-    margin-right: auto !important
+    margin-right: -30px !important
 }
 
 .mb-auto,
